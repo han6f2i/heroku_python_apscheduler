@@ -10,7 +10,6 @@ print('Hello Python')
 # res = requests.get(target_url)
 # print(res.text)
 
-# 宣告一個排程
 sched = BlockingScheduler()
 
 @sched.scheduled_job('cron', day_of_week='mon-fri', hour='8-22', minute='*/20')

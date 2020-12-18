@@ -1,0 +1,3 @@
+https://devcenter.heroku.com/articles/clock-processes-python
+https://devcenter.heroku.com/articles/scheduled-jobs-custom-clock-processes
+https://apscheduler.readthedocs.io/en/stable/modules/triggers/cron.html
