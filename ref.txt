@@ -1,3 +1,5 @@
 https://devcenter.heroku.com/articles/clock-processes-python
 https://devcenter.heroku.com/articles/scheduled-jobs-custom-clock-processes
 https://apscheduler.readthedocs.io/en/stable/modules/triggers/cron.html
+https://devcenter.heroku.com/articles/procfile
+https://devcenter.heroku.com/articles/heroku-cli-commands
