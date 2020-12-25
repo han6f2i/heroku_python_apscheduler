@@ -14,7 +14,8 @@ sched = BlockingScheduler()
 
 @sched.scheduled_job('cron', day_of_week='mon-fri', hour='8-22', minute='*/20')
 def scheduled_job():
-    target_url = "https://han-huang.herokuapp.com/home/books/"
+    # target_url = "https://han-huang.herokuapp.com/home/books/"
+    target_url = "https://han-huang.herokuapp.com/captcha/clear"
     res = requests.get(target_url)
     print(datetime.datetime.now())
 
